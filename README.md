@@ -1,8 +1,11 @@
-# React + Vite
+# Men's Gymnastics Olympic Team Scenario Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Men's Gymnastics Olympic Team Scenario Calculator! This project is a comprehensive tool designed to help users simulate and analyze potential team compositions for the Men's Gymnastics Olympic team. By utilizing this tool, you can input scores for various competitors, determine the number of team scenarios to view, and calculate the top team scoring scenarios based on these inputs.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used
+React: A JavaScript library for building user interfaces, providing a fast and interactive experience.
+Vite: A build tool that offers a fast development environment and optimized production builds.
+Flask: A lightweight WSGI web application framework in Python used for the backend API.
+Selenium: A browser automation tool used for web scraping gymnast scores.
+Axios: A promise-based HTTP client for making requests to the backend API.
+CSS: For styling the user interface, ensuring a user-friendly experience.
