@@ -1,0 +1,189 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.button {
+  background-color: #28a745; /* Positive green background */
+  border: 2px solid #28a745; /* Green border */
+  color: white; /* White text */
+  padding: 12px 24px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 20px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s, border 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #218838; /* Darker green background on hover */
+  color: white; /* Keep text white on hover */
+  border: 2px solid #218838; /* Darker green border on hover */
+  transform: scale(1.05);
+}
+
+.textBox {
+  width: 75%; /* Full width */
+  padding: 10px; /* Some padding */
+  margin: 8px 0; /* Some margin */
+  display: inline-block; /* Inline block */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding and width includes the border */
+  font-size: 16px; /* Font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border and shadow */
+}
+
+/* Focus styles for input fields */
+.textBox:focus {
+  border-color: #4CAF50; /* Green border on focus */
+  box-shadow: 0 0 8px 0 rgba(76, 175, 80, 0.4); /* Green shadow on focus */
+  outline: none; /* Remove default outline */
+}
+
+.submitInput {
+  width: 120px; /* Adjust width considering padding and border */
+  padding: 12px 24px; /* Same padding as the button */
+  margin: 4px 2px; /* Some margin */
+  display: inline-block; /* Inline block */
+  border: 2px solid #ccc; /* Light grey border */
+  border-radius: 12px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding and width includes the border */
+  font-size: 20px; /* Same font size as the button */
+  font-weight: bold;
+  transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.submitInput:focus {
+  border-color: #4CAF50; /* Green border on focus */
+  box-shadow: 0 0 8px 0 rgba(76, 175, 80, 0.4); /* Green shadow on focus */
+  outline: none; /* Remove default outline */
+  background-color: #f9f9f9; /* Light background on focus */
+  transform: scale(1.02); /* Slightly increase size on focus */
+}
+
+.inline-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.eventName {
+  padding: 10px
+}
+
+/* Instructions styles */
+.instructions {
+  background-color: #fff;
+  border-radius: 8px;
+  padding-bottom:30px;
+  padding-top:1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions h3 {
+  font-size: 1.75em;
+  margin-bottom: 10px;
+}
+
+.instructions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructions li {
+  margin-bottom: 10px;
+  font-size: 1.25em;
+}
+
+.instructions p {
+  font-size:1.25em;
+}
+
+.instructions span {
+  margin-left:25px;
+  margin-right:25px;
+  font-size: 1em;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.teamScenarioInfo {
+  font-size:1.25em;
+}
+
+.header-image {
+  width: 25%; 
+}
+
+.submitContainer {
+  margin:20px;
+}
